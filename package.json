@@ -1,0 +1,38 @@
+{
+  "name": "web-scraping-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellesubang/web-scraping-node.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "scraping",
+    "cheerio",
+    "request",
+    "promise",
+    "sql"
+  ],
+  "author": "danielle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellesubang/web-scraping-node/issues"
+  },
+  "homepage": "https://github.com/daniellesubang/web-scraping-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^7.0.0",
+    "env": "0.0.2",
+    "express": "^4.16.4",
+    "mssql": "^5.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
